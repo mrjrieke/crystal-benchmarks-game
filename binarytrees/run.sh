@@ -8,3 +8,5 @@ echo Ruby
 ../xtime.rb ruby binarytrees.rb 18
 echo Java
 ../xtime.rb java binarytrees 18
+echo Go
+../xtime.rb ./bin_go 18
