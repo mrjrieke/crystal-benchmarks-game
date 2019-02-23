@@ -4,3 +4,5 @@ fi
 
 gcc -O3 -fomit-frame-pointer -o bin_c revcomp.c
 crystal build revcomp.cr --release -o bin_cr
+go build -o bin_go revcomp.go
+javac revcomp.java
