@@ -4,3 +4,5 @@ fi
 
 gcc -O3 -fomit-frame-pointer -o bin_c regexdna.c -lpcre
 crystal build regexdna.cr --release -o bin_cr
+go build -o bin_go regexredux.go
+javac regexredux.java
